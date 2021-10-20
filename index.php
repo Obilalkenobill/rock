@@ -34,7 +34,7 @@ require "db.php";
     <caption>Liste des artistes</caption>
     <thead>
     <tr>
-      <th class="table-light">Artistes</th>
+      <th class="table-light">Découvrez ces Artistes</th>
 </tr>
   </thead>
     <tbody>
