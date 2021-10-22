@@ -1,0 +1,47 @@
+@media (max-width: 1100px) {
+    .batt {
+        background: url("fond.jpg");
+        background-repeat: repeat-y;
+        background-size: cover;
+        width: 100vw !important;
+        height: 50vh !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    footer {
+        width: 98vw;
+        height: 15vh;
+        background-image: linear-gradient(white, grey);
+        opacity: 0.8;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        text-align: center;
+    }
+    a {
+        color: darkCyan;
+    }
+}
+
+.batt {
+    background: url("fond.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 60vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    width: 98vw;
+    height: 15vh;
+    background-image: linear-gradient(white, grey);
+    opacity: 0.8;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+}
+
+a {
+    color: darkCyan;
+}

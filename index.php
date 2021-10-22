@@ -12,23 +12,10 @@ require "db.php";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="logo.jpg" type="images/jpg" /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
-
+    <link rel="stylesheet" href="stylesheet.css">
     
-<style>
-
-        .batt{
-            background:url("fond.jpg");
-            background-repeat: repeat-y;
-    background-size: cover;
-    width:60vw;
-    height:50vh;
-    margin-left:auto;
-    margin-right:auto;
-        }
-   
-    </style>
 </head>
-<body class="font-effect-fire">
+<body>
     <div class="batt"></div>
     <table class="table table-striped table-hover">
     <caption>Liste des artistes</caption>
@@ -45,6 +32,6 @@ require "db.php";
     }?>
     </tbody>
 </table>
-
+<footer class="font-effect-fire" >CopyRock &copy M.B. Prod. </footer>
 </body>
 </html>
